@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 import { youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper';
 let handler = async (m, { conn, args, isPrems, isOwner }) => {
   if (!args || !args[0]) throw `✳️ Ejemplo :\n${usedPrefix + command} https://youtu.be/YzkTFFwxtXI`
- m.reply('*⌛ _Cargando..._ ▬▬▬▭*')
+ //m.reply('*⌛ _Cargando..._ ▬▬▬▭*')
  let chat = global.db.data.chats[m.chat]
   const isY = /y(es)/gi.test(args[1])
   const { thumbnail, video: _video, title } = await youtubedl(args[0]).catch(async _ => await youtubedlv2(args[0])).catch(async _ => await youtubedlv3(args[0]))
@@ -26,21 +26,17 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
     }
   }
   if ((!(source instanceof ArrayBuffer) || !link || !res.ok) && !isLimit) throw 'Error: ' + (lastError || 'Can\'t download video')
-  if (!isY && !isLimit) await conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `
- ≡  *FG MUSIC*
 
+m.reply(isLimit ? ` ≡  *FG MUSIC*
 ▢ *📌Título* : ${title}
 ▢ *⚖️Peso* : ${video.fileSizeH}
-*${isLimit ? `▢ *El archivo supera el límite de descarga*
-
+▢ *El archivo supera el límite de descarga*
 *Gratis :*
 ${limit} mb
 ▬▬▬▭▭ *300 MB*
-
 *Premium :*
 300 mb
-▬▬▬▬▬ *300 MB*` : ''}
-`.trim(), m)
+▬▬▬▬▬ *300 MB*`: global.wait)
   let _thumb = {}
   try { _thumb = { thumbnail: await (await fetch(thumbnail)).buffer() } }
   catch (e) { }
@@ -64,4 +60,3 @@ handler.exp = 0
 
 
 export default handler
-
