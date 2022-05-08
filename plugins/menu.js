@@ -32,7 +32,7 @@ const defaultMenu = {
 📊 Database: %rtotalreg de %totalreg
 ─────────────
 ▢ Crea tu propio bot 
-• https://youtu.be/F4lGWb1WXgM
+• https://youtu.be/jeXHB0IIzCM
 ▢ Descarga *FGWhatsApp*
 • https://fg98.epizy.com
 ─────────────
