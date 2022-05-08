@@ -11,7 +11,6 @@ let tags = {
   'group': 'GRUPO',
   'nable': 'EN/DISABLE OPCIONES', 
   'premium': 'PREMIUM',
-  'otros': 'OTROS',
   'nime': 'ANIME',
   'downloader': 'DESCARGAS',
   'tools': 'TOOLS',
