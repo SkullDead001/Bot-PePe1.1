@@ -9,7 +9,6 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   ≡ *FG MUSIC*
 ┌──────────────
 ▢ 📌  *Título* : ${title}
-▢ 📇 *Descripción:* ${description}
 ▢ 📆 *Publicado:* ${publishedTime}
 ▢ ⌚ *Duración:* ${durationH}
 ▢ 👀 *Vistas:* ${viewH}
