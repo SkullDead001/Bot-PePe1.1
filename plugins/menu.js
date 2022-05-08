@@ -160,7 +160,7 @@ const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
 handler.help = ['Help']
 handler.tags = ['main']
 handler.command = ['menu', 'help', 'menú'] 
-
+handler.register = true
 handler.exp = 3
 
 export default handler
