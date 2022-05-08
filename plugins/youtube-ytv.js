@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
       lastError = e
     }
   }
-  if ((!(source instanceof ArrayBuffer) || !link || !res.ok) && !isLimit) throw 'Error: ' + (lastError || 'Can\'t download video')
+  if ((!(source instanceof ArrayBuffer) || !link || !res.ok) && !isLimit) throw '❎ Error: ' + (lastError || 'no puedo descargar el video')
 
 m.reply(isLimit ? ` ≡  *FG MUSIC*
 ▢ *📌Título* : ${title}
