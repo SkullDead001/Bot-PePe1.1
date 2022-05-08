@@ -12,6 +12,6 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /^(buenos tardes)$/i
+handler.customPrefix = /^(buenas tardes)$/i
 handler.command = new RegExp
 export default handler
