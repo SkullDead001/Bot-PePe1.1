@@ -6,6 +6,7 @@ let tags = {
   'main': 'ACERCA DE',
   'game': 'JUEGOS',
   'xp': 'NIVEL & ECONOMIA',
+  'rg': 'REGISTRO',
   'sticker': 'STICKER',
    'img': 'IMAGEN',
   'group': 'GRUPO',

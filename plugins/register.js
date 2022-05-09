@@ -29,7 +29,7 @@ ${sn}
 `.trim())
 }
 handler.help = ['reg'].map(v => v + ' <nombre.edad>')
-handler.tags = ['exp']
+handler.tags = ['rg']
 
 handler.command = ['verify', 'reg', 'register', 'registrar'] 
 
