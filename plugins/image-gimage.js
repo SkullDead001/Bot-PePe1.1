@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 `.trim(), m)
 }
 handler.help = ['imagen']
-handler.tags = ['tools']
+handler.tags = ['img']
 handler.command = ['img', 'image', 'imagen'] 
 handler.limit = true 
 
