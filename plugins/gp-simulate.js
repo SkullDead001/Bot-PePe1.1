@@ -49,7 +49,7 @@ participants: part,
 action: act
 })}
 handler.help = ['simular <event> @mention']
-handler.tags = ['owner']
+handler.tags = ['group']
 handler.command = ['simular', 'simulate'] 
 handler.admin = true
 handler.group = true
