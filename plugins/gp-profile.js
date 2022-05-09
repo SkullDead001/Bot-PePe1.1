@@ -10,7 +10,7 @@ let pp = 'https://i.ibb.co/V2nDN32/avatar-contact.jpg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
 try {
-pp = await conn.getProfilePicture(who)
+pp = await conn.profilePictureUrl(who)
 } catch (e) {
 
 } finally {
