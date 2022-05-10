@@ -4,7 +4,7 @@ function handler(m) {
   
   m.reply(`
 *≡ OWNER*
-
+  *FG98*
 ▢ Instagram :
   • https://instagram.com/fg98._
 ▢ WhatsApp :
@@ -18,12 +18,17 @@ function handler(m) {
   • https://facebook.com/fg98A/
 ▢ YouTube : 
   • https://youtube.com/fg98f
+  
+  *≡ HELPER*
+  *CRISS*
+▢ Instagram : https://www.instagram.com/sayurizuniga3
+▢ WhatsApp : wa.me/
 `) 
 
 
 }
 
-handler.help = ['Creador']
+handler.help = ['creador']
 handler.tags = ['main']
 
 handler.command = ['owner', 'creator', 'creador', 'dueño', 'fgowner'] 
