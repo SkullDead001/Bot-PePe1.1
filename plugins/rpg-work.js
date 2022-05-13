@@ -58,7 +58,11 @@ global.work = ["Trabajas como cortador de galletas y ganas", "Trabaja para una e
 "Trabajas como actor de voz para Bob Esponja y te las arreglaste para ganar", 
 "Estabas cultivando y Ganaste", "Trabajas como constructor de castillos de arena y ganas", "Trabajaste y Ganaste", 
 "Trabajas como artista callejera y ganas","¡Hiciste trabajo social por una buena causa! por tu buena causa Recibiste", 
-"Llevas mujeres a la tienda por"
+"Llevas mujeres a la tienda por", "Reparaste un tanque T-60 averiado en Afganistán. La tripulación te pagó", 
+"Trabajas como ecologista de anguilas y ganas", "Trabajas como zoólogo y ganas", 
+"Trabajas en Disneyland como un panda disfrazado y ganas", "Reparas las máquinas recreativas y recibes", 
+"Hiciste algunos trabajos ocasionales en la ciudad y Ganaste", "Limpias un poco de moho tóxico de la ventilación y ganas", 
+"Resolviste el misterio del brote de cólera y el gobierno te recompensó con una suma de" 
 ]
 
 
