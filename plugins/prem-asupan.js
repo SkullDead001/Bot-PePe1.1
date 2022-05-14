@@ -6,7 +6,7 @@ let handler = async(m, { conn }) => {
 	let asu = ["asupan", "asupan-la"]
     let asufg = asu[Math.floor(Math.random() * asu.length)]
 	
-	let asupan = (await axios.get(`https://raw.githubusercontent.com/dylux-fg/img-fg/main/random/${asufg}.json`)).data
+	let asupan = (await axios.get(`https://raw.githubusercontent.com/FG98F/team-fg/main/img/${asufg}.json`)).data
   
 await conn.sendFile(m.chat, pickRandom(asupan), 'asupan.mp4', '✅ Aquí tiene', m)
 }
