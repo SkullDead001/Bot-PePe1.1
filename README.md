@@ -31,9 +31,9 @@ $ pkg install imagemagick -y
 $ git clone https://github.com/FG98F/dylux-fg
 $ cd dylux-fg
 $ npm i 
+$ npm start
 ```
 ```sh
-$ node .
 ```
 2. Esperar a que se inicie el bot...
 3. Escanea el código QR desde el segundo dispositivo. (ir a whatsapp > Dispositivos Vinculados > Vincular un dispositivo)
