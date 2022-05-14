@@ -1,14 +1,9 @@
 let handler = async m => m.reply(`
 
-≡  *DyLux  ┃ ᴮᴼᵀ*  
+≡  *DyLux  ┃ ᴮᴼᵀ*   GRUPOS
 
-▢ GRUPOS
+▢ Grupo WhatsApp 
  https://instabio.cc/fg98ff
-
-≡ Aɴᴅʀᴇᴀシ┃ᴮᴼᵀ⁩ ✨
-▢ GRUPOS
-https://chat.whatsapp.com/LroudEJYhMf8XCUr7IDm5H
-
 
 ▢ *Grupo Telegram*
  https://t.me/fgawgp
