@@ -8,7 +8,7 @@ puedes donar si quieres ayudar a mantener el bot activo
 ▢ *Mercado Pago Arg*
 • *Link :* https://mpago.la/1F3r6JH
 ▢ *Tigo Money*
-• *N° :*  78230727
+• *N° :*  75140648
 
 _Al donar consigues_  *Premium* 
 
