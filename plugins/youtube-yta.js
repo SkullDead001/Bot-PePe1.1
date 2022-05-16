@@ -12,7 +12,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   for (let i in _audio) {
     try {
       audio = _audio[i]
-      isLimit = limitedSize < audio.fileSize
+      isLimit = limitedSize < audio.fileSizeH
       if (isLimit) continue
       link = await audio.download()
       if (link) res = await fetch(link)
