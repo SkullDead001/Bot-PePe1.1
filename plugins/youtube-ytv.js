@@ -12,7 +12,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   for (let i in _video) {
     try {
       video = _video[i]
-      isLimit = limitedSize < video.fileSize
+      isLimit = limitedSize < video.fileSizeH
       if (isLimit) continue
       link = await video.download()
       if (link) res = await fetch(link)
