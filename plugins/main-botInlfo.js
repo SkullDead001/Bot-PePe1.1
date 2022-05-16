@@ -54,19 +54,8 @@ let infobt = `
 
 *≡  NodeJS Uso de memoria*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
-
-${cpus[0] ? `_Total CPU Usado_
-${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
-
-_CPU Core(s) Usado (${cpus.length} Core CPU)_
-${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
 `
-/*conn.sendButton(m.chat, infobt, igfg, [
-    ['ꨄ︎ Apoyar', `${usedPrefix}donar`],
-    ['⌬ Grupos', `${usedPrefix}gpdylux`]
-], m)*/
-
-conn.sendHydrated(m.chat, infobt, igfg, '', 'https://youtube.com/fg98f', 'YouTube', null, null, [
+conn.sendHydrated(m.chat, infobt, igfg, '', 'https://github.com/FG98F/dylux-fg', 'Script', null, null, [
       ['ꨄ︎ Apoyar', `${usedPrefix}donar`],
       ['⌬ Grupos', `${usedPrefix}gpdylux`],
       ['✆ Owner', `${usedPrefix}fgowner`]
