@@ -1,7 +1,7 @@
 let limit = 50
 import fetch from 'node-fetch'
 import { youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper';
-let handler = async (m, { conn, args, isPrems, isOwner }) => {
+let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
   if (!args || !args[0]) throw `✳️ Ejemplo :\n${usedPrefix + command} https://youtu.be/YzkTFFwxtXI`
  //m.reply('*⌛ _Cargando..._ ▬▬▬▭*') 
  let chat = global.db.data.chats[m.chat]
