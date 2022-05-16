@@ -1,6 +1,6 @@
 {
     "name": "dylux-fg",
-    "version": "1.2.2",
+    "version": "1.2.4",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
     "type": "module",
@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/FG98F/dylux-bot",
+    "homepage": "https://github.com/FG98F/dylux-fg",
     "author": {
-        "name": "BochilGaming"
+        "name": "FG98"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/FG98F/dylux-bot.git"
+        "url": "git+https://github.com/FG98F/dylux-fg.git"
     },
     "bugs": {
-        "url": "https://github.com/FG98F/dylux-bot/issues"
+        "url": "https://github.com/FG98F/dylux-fg/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
