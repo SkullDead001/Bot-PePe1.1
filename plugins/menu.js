@@ -158,7 +158,7 @@ const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
     throw e
   }
 }
-handler.help = ['menu']
+handler.help = ['help']
 handler.tags = ['main']
 handler.command = ['menu', 'help', 'menú'] 
 handler.register = true
