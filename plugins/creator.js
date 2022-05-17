@@ -9,6 +9,7 @@ function handler(m) {
   • https://instagram.com/fg98._
 ▢ WhatsApp :
   • wa.me/549xxx
+  • wa.me/59172945992 (escribe solo si es necesario) 
 ▢ GitHub :
   • https://github.com/FG98F
 ▢ Telegram : 
