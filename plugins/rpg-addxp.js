@@ -20,7 +20,7 @@ let handler = async (m, { conn, text }) => {
 ┌──────────────
 ▢  *Total:* ${xp}
 └──────────────`)
- // conn.fakeReply(m.chat, `▢ Recibiste \n\n *+${xp} XP*`, who, m.text)
+ conn.fakeReply(m.chat, `▢ Recibiste \n\n *+${xp} XP*`, who, m.text)
 }
 
 handler.help = ['addxp <@user>']
