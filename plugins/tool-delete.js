@@ -7,7 +7,6 @@ let handler = function (m) {
 }
 handler.help = ['delete']
 handler.tags = ['main']
-
 handler.command = ['del', 'delete'] 
-
+handler.admin = true 
 export default handler
