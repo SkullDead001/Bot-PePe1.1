@@ -35,7 +35,7 @@ const defaultMenu = {
 ▢ Crea tu propio bot 
 • https://youtu.be/jeXHB0IIzCM
 ▢ Descarga *FGWhatsApp*
-• https://fg98.epizy.com
+• https://fgwhatsapp.ml
 ─────────────
 %readmore
 Ⓟ = Premium
