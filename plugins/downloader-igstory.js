@@ -10,11 +10,9 @@ let handler = async (m, { conn, args, usedPrefix, command, text}) => {
   
    hx.igstory(text).then(async (result) => {
           for (let i of result.medias) {
-            if (i.url.includes("mp4")) {
-             
+            if (i.url.includes("mp4")) {            
               conn.sendFile(m.chat, i.url, 'igstory.mp4', `✅ Hecho`.trim(), m)
-            } else {
-             
+            } else {     
               conn.sendFile(m.chat, i.url, '', '', m)
             }
           }
