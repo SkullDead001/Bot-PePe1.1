@@ -16,7 +16,7 @@ let handler = async (m, { conn, args, usedPrefix, command, text}) => {
               conn.sendFile(m.chat, i.url, '', '', m)
             }
           }
-        });
+        }); 
    
 }
 handler.help = ['igstory <username>']
