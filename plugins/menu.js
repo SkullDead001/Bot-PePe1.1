@@ -30,7 +30,7 @@ const defaultMenu = {
 
 🏆 Rango : *%role*
 🧿 Nivel : *%level* 
-📊 Database: %rtotalreg de %totalreg
+👥 Usuarios : %totalreg
 ─────────────
 ▢ Crea tu propio bot 
 • https://youtu.be/jeXHB0IIzCM
