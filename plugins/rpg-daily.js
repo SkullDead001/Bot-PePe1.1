@@ -7,6 +7,7 @@ let handler = async (m, { isPrems }) => {
   global.db.data.users[m.sender].exp += isPrems ? prem : free
   m.reply(`
 🎁 *RECOMPENSA DIARIA*
+
 ▢ *Has recibido:*
 🆙 *XP* : +${isPrems ? prem : free}`)
   global.db.data.users[m.sender].lastclaim = new Date * 1
