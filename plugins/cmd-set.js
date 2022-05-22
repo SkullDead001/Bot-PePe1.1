@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     db.data.sticker = db.data.sticker || {}
-    if (!m.quoted) throw '✳️Responde a un mensaje con *${usedPrefix + command}*'
+    if (!m.quoted) throw `✳️Responde a un mensaje con *${usedPrefix + command}*`
     if (!m.quoted.fileSha256) throw '⚠️ Falta el hash SHA256'
     if (!text) throw `✳️ Falta el comando`
     let sticker = db.data.sticker
