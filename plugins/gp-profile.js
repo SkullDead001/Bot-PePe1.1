@@ -16,7 +16,7 @@ pp = await conn.profilePictureUrl(who)
 } finally {
 
 
-let { name, exp, limit, lastclaim, registered, regTime, age, level} = global.db.data.users[who]
+let { name, exp, limit, lastclaim, registered, regTime, age, level, role } = global.db.data.users[who]
 let username = conn.getName(who)
 
 let prem = global.prems.includes(who.split`@`[0])
@@ -29,6 +29,7 @@ let str = `
 ▢ *🔗Link:* wa.me/${who.split`@`[0]}${registered ? '\n▢ *🎈Edad*: ' + age + ' años' : ''}
 ▢ *💎 Diamantes :* ${limit}
 ▢ *🆙 Nivel* : ${level}
+▢ *🥇Rango:* ${role}
 ▢ *📇 Registrado :* ${registered ? 'Si': 'No'}
 ▢ *⭐ Premium* : ${prem ? 'Si' : 'No'}
 └──────────────`
@@ -41,4 +42,5 @@ conn.sendButton(m.chat, str, igfg, await(await fetch(pp)).buffer(), [['👍🏻'
 handler.help = ['perfil @user']
 handler.tags = ['group']
 handler.command = ['profile', 'perfil'] 
+
 export default handler
