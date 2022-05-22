@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url'
 global.owner = [
   ['59172945992', 'FG98', true], 
   ['5492622689586'], 
+  ['573125484672'], 
   ['5493885839638']
 ] //Numeros de owner 
 
@@ -35,6 +36,7 @@ global.APIKeys = { // APIKey Here
 global.packname = 'dylux-bot'
 global.author = '@fg98._'
 global.igfg = '\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n' 
+global.fgsc = 'https://github.com/FG98F/dylux-fg' 
 
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
