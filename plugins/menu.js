@@ -41,6 +41,7 @@ const defaultMenu = {
 Ⓟ = Premium
 ⓓ = Diamantes
 -----  -----  -----  -----  -----
+  ≡ *LISTA DE MENUS*
 `.trimStart(),
   header: '┌─⊷ *%category*',
   body: '▢ %cmd %islimit %isPremium',
