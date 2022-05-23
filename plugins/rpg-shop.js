@@ -13,7 +13,7 @@ let handler = async (m, { conn, command, args }) => {
 └──────────────`, m)
   } else conn.reply(m.chat, `❎ Lo siento, no tienes suficientes *XP* para comprar *${count}* Diamantes💎`, m)
 }
-handler.help = ['Buy', 'Buyall']
+handler.help = ['buy', 'buyall']
 handler.tags = ['xp']
 handler.command = ['buy', 'buyall'] 
 
