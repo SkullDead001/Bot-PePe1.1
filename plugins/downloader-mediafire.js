@@ -16,7 +16,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     m.reply(caption)
     await conn.sendFile(m.chat, url, filename, '', m, null, { mimetype: ext, asDocument: true })
 }
-handler.help = ['Mediafire <url>']
+handler.help = ['mediafire <url>']
 handler.tags = ['downloader']
 handler.command = ['mediafire', 'mfire'] 
 
