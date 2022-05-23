@@ -5,11 +5,10 @@ import { fileURLToPath } from 'url'
 global.owner = [
   ['59172945992', 'FG98', true], 
   ['5492622689586'], 
-  ['573125484672'], 
   ['5493885839638']
 ] //Numeros de owner 
 
-global.mods = [] // Moderadores
+global.mods = ['573125484672'] // Moderadores
 global.prems = ['50489079501', '5219631769130', '573125484672']  // El usuario Premium tiene diamantes ilimitado
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -50,6 +49,7 @@ global.rpg = {
       limit: '💎',
       exp: '🕹️'
     }
+    
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
     if (!results.length) return ''
     else return emot[results[0][0]]
