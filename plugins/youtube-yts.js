@@ -1,26 +1,31 @@
-import { youtubeSearch } from '@bochilteam/scraper'
+
+import yts from 'yt-search'
+
 let handler = async (m, { text }) => {
   if (!text) throw '✳️ Que quieres que busque en YouTube?'
-  const { video, channel } = await youtubeSearch(text)
-  let teks = [...video, ...channel].map(v => {
+  let results = await yts(text)
+  let tes = results.all
+  let teks = results.all.map(v => {
     switch (v.type) {
       case 'video': return `
-📌 *${v.title}* (${v.url})
-⌚ Duración: ${v.durationH}
-⏲️ Subido ${v.publishedTime}
-👁️ ${v.view} views
+▢ ${v.title}
+▢ *Link* : ${v.url}
+▢ *Duración* : ${v.timestamp}
+▢ *Subido :* ${v.ago}
+▢ *Vistas:* ${v.views}
+
       `.trim()
-      case 'channel': return `
-📌 *${v.channelName}* (${v.url})
-🧑‍🤝‍🧑 _${v.subscriberH} (${v.subscriber}) suscriptores
-🎥 ${v.videoCount} video
+      case 'canal': return `
+▢ *${v.name}* (${v.url})
+▢${v.subCountLabel} (${v.subCount}) Suscribirse
+▢ ${v.videoCount} videos
 `.trim()
     }
-  }).filter(v => v).join('\n\n========================\n\n')
-  m.reply(teks)
+  }).filter(v => v).join('\n\n________________________\n\n')
+  conn.sendFile(m.chat, tes[0].thumbnail, 'yts.jpeg', teks, m)
 }
-handler.help = ['ytsearch <busca>'] 
+handler.help = ['ytsearch <🔍>'] 
 handler.tags = ['tools']
-handler.command = ['ytsearch'] 
+handler.command = ['ytsearch', 'yts'] 
 
 export default handler
