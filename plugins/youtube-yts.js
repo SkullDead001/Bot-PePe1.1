@@ -14,7 +14,7 @@ let handler = async (m, { text }) => {
 ▢ *Subido :* ${v.ago}
 ▢ *Vistas:* ${v.views}
 
-      `.trim()
+   `.trim()
       case 'canal': return `
 ▢ *${v.name}* (${v.url})
 ▢${v.subCountLabel} (${v.subCount}) Suscribirse
