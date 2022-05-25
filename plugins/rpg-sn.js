@@ -7,7 +7,7 @@ m.reply(`
 `.trim())
 }
 handler.help = ['nserie']
-handler.tags = ['exp']
+handler.tags = ['rg']
 handler.command = ['nserie', 'sn'] 
 handler.register = true
 export default handler
