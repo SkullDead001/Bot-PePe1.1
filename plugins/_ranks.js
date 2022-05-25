@@ -1,6 +1,3 @@
-/*
-     ig : https://www.instagram.com/fg98._/
-*/
 let handler = m => m
 
 handler.before = function (m) {
@@ -41,15 +38,15 @@ handler.before = function (m) {
       : ((user.level >= 97) && (user.level <= 100)) ? 'Mítico II'
       : ((user.level >= 100) && (user.level <= 105)) ? 'Mítico I'      
       : ((user.level >= 105) && (user.level <= 120)) ? 'Gloria Mítica'
-      : ((user.level >= 120) && (user.level <= 150)) ? 'Majin'
-      : ((user.level >= 150) && (user.level <= 160)) ? 'Demon lord seed'
-      : ((user.level >= 160) && (user.level <= 170)) ? 'Demon lord'
-      : ((user.level >= 170) && (user.level <= 185)) ? 'True demon lord'
-      : ((user.level >= 185) && (user.level <= 200)) ? 'Octagram'
-      : ((user.level >= 200) && (user.level <= 400)) ? 'Older demon lord'
-      : ((user.level >= 405) && (user.level <= 700)) ? 'Great demon lord'
-      : ((user.level >= 700) && (user.level <= 1000)) ? 'Strongest demon lord'
-      : 'Dragón rey estrella'
+      : ((user.level >= 120) && (user.level <= 150)) ? 'Esmeralda V'
+      : ((user.level >= 150) && (user.level <= 160)) ? 'Esmeralda VI'
+      : ((user.level >= 160) && (user.level <= 170)) ? 'Esmeralda III'
+      : ((user.level >= 170) && (user.level <= 185)) ? 'Esmeralda II'
+      : ((user.level >= 185) && (user.level <= 200)) ? 'Esmeralda I'
+      : ((user.level >= 200) && (user.level <= 400)) ? 'Titan III'
+      : ((user.level >= 405) && (user.level <= 700)) ? 'Titan II'
+      : ((user.level >= 700) && (user.level <= 1000)) ? 'Titan I'
+      : 'Dragón rey estrell'
 
     user.role = role
     return true
