@@ -17,7 +17,6 @@ let tags = {
   'tools': 'TOOLS',
   'fun': 'FUN',
   'database': 'DATABASE',
-  'serbot': 'SUB BOTS',
   'nsfw': 'NSFW +18', 
   'owner': 'OWNER', 
   'advanced': 'AVANZADO',
