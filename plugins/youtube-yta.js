@@ -50,7 +50,7 @@ ${limit} mb
 }
 handler.help = ['ytmp3 <link yt>']
 handler.tags = ['downloader']
-handler.command = ['ytmp3', 'fgmp3', 'yta'] 
+handler.command = ['ytmp3', 'fgmp3'] 
 
 handler.limit = true
 handler.exp = 0

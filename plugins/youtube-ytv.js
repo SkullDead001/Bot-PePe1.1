@@ -53,7 +53,7 @@ ${limit} mb
 }
 handler.help = ['ytmp4 <link yt>']
 handler.tags = ['downloader']
-handler.command = ['ytmp4', 'fgmp4', 'ytv']
+handler.command = ['ytmp4', 'fgmp4']
 handler.limit = true
 
 handler.exp = 0
