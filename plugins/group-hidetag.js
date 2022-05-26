@@ -1,5 +1,6 @@
 import MessageType from '@adiwajshing/baileys'
 import { generateWAMessageFromContent } from '@adiwajshing/baileys'
+
 let handler = async (m, { conn, text, participants }) => {
 let users = participants.map(u => conn.decodeJid(u.id))
 let q = m.quoted ? m.quoted : m
