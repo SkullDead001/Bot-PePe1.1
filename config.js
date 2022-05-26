@@ -5,10 +5,12 @@ import { fileURLToPath } from 'url'
 global.owner = [
   ['59172945992', 'FG98', true], 
   ['5492622689586'], 
-  ['5493885839638']
+  ['5493885839638'], 
+ ['573125484672'] 
+  
 ] //Numeros de owner 
 
-global.mods = ['573125484672'] // Moderadores
+global.mods = [] // Moderadores
 global.prems = ['50489079501', '5219631769130', '573125484672']  // El usuario Premium tiene diamantes ilimitado
 global.APIs = { // API Prefix
   // name: 'https://website'
