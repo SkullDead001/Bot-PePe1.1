@@ -40,7 +40,7 @@ global.igfg = '\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n'
 global.fgsc = 'https://github.com/FG98F/dylux-fg' 
 global.fgyt = 'https://youtube.com/fg98f'
 
-global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
+global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱▱*'
 
 global.multiplier = 69 // Cuanto más alto, más difícil subir de nivel
 
