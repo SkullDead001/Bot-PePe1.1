@@ -1,15 +1,15 @@
 let handler = async m => m.reply(`
 
-≡  *DyLux  ┃ ᴮᴼᵀ*   GRUPOS
+≡  *Bot-PePe1.1  ┃ ᴮᴼᵀ*   GRUPOS
 
 ▢ Grupo WhatsApp 
- https://instabio.cc/fg98ff
+ https://chat.whatsapp.com/BwMZovh3aBS7aLbRz4XSZ0
 
 ▢ *Grupo Telegram*
- https://t.me/fgawgp
+ https://t.me/Androiobbapkjuegospeliculasmusic
 
 ▢ *YouTube*
-• https://www.youtube.com/fg98f
+• https://youtube.com/channel/UCs2ftm01x6Xjwl-ldJB_bhw
 
 
 `.trim())
